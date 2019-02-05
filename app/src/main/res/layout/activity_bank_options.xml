@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    tools:context=".BankOptions">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добро пожаловать, банкир. Выберите интересующую Вас опцию:"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/bank_id"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_add_atm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить банкомат" />
+
+    <Button
+        android:id="@+id/button_add_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавить нового клиента" />
+
+    <Button
+        android:id="@+id/button_check_atm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Получить выписку по банкомату" />
+
+</LinearLayout>
